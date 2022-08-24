@@ -44,8 +44,6 @@
        run: |
          cd isamples_inabox
          poetry install --no-interaction --no-root
-     - name: Install 
-       run: poetry install --no-interaction
      - name: Run iSamples in a Box CSV to Sitemap transformation script
        run: |
          source ../.venv/bin/activate
