@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>http://foo.bar.baz/DOI:12345.json</loc>
-    <lastmod>2022-08-24 21:48:55.476452</lastmod>
+    <lastmod>2022-08-24 22:34:33.174570</lastmod>
+  </url>
+  <url>
+    <loc>http://foo.bar.baz/DOI:123456.json</loc>
+    <lastmod>2022-08-24 22:34:33.174582</lastmod>
   </url>
 </urlset>
