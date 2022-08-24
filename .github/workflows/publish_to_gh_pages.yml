@@ -49,7 +49,7 @@
          cd isamples_inabox
          source ./.venv/bin/activate
          export PYTHONPATH=.
-         python scripts/isb_things.py sitemap -f simple_isamples.csv -d ../sitemaps
+         python scripts/isb_things.py sitemap -f ../simple_isamples.csv -d ../sitemaps
      - name: Deploy 🚀 
        uses: JamesIves/github-pages-deploy-action@v4.3.3
        with:
