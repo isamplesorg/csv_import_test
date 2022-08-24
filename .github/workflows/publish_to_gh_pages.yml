@@ -46,9 +46,11 @@
          poetry install --no-interaction --no-root
      - name: Run iSamples in a Box CSV to Sitemap transformation script
        run: |
+         pwd       
          cd isamples_inabox
          source ./.venv/bin/activate
          export PYTHONPATH=.
+         ls ..
          python scripts/isb_things.py sitemap -f ../simple_isamples.csv -d ../sitemaps
      - name: Deploy 🚀 
        uses: JamesIves/github-pages-deploy-action@v4.3.3
