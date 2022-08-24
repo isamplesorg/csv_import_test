@@ -21,7 +21,8 @@
      - name: Checkout     
        uses: actions/checkout@v3
        with:
-         repository: https://github.com/isamplesorg/isamples_inabox.git
+         repository: isamplesorg/isamples_inabox
+         path: isamples_inabox
          ref: csv_backed_isb
      - name: Set up Python ${{ matrix.python-version }}
        uses: actions/setup-python@v2
