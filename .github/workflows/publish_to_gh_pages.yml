@@ -41,7 +41,9 @@
          key: venv-${{ runner.os }}-#{{ hashFiles('**/poetry.lock') }}
      - name: Install dependencies
        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-       run: poetry install --no-interaction --no-root
+       run: |
+         cd isamples_inabox
+         poetry install --no-interaction --no-root
      - name: Install 
        run: poetry install --no-interaction
      - name: Run iSamples in a Box CSV to Sitemap transformation script
