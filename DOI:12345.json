@@ -1,0 +1,62 @@
+{
+  "label": "Label 12345",
+  "description": "This is a description of sample 12345.",
+  "hasContextCategory": [
+    "context1"
+  ],
+  "hasMaterialCategory": [
+    "material1"
+  ],
+  "hasSpecimenCategory": [
+    "specimen1"
+  ],
+  "keywords": [
+    "keyword1"
+  ],
+  "informalClassification": [
+    "Homo sapiens"
+  ],
+  "registrant": [
+    "Sample registrant 1"
+  ],
+  "samplingPurpose": [
+    "Sampling purpose 1"
+  ],
+  "compliesWith": [
+    "URI 1 to compliance documentation"
+  ],
+  "authorizedBy": [
+    "URI 1 to associated permit"
+  ],
+  "producedBy": {
+    "samplingSite": {
+      "location": {
+        "elevation": 2792,
+        "latitude": "32.4434174",
+        "longitude": "-110.7881222"
+      },
+      "description": "A description of the sampling site.",
+      "label": "The sampling site label.",
+      "placeName": [
+        "Geographical name 1",
+        "Geographical name 2"
+      ]
+    },
+    "label": "A label for the event that produced the sample.",
+    "description": "A description of the event that produced the sample.",
+    "hasFeatureOfInterest": "Something interesting about what produced the sample.",
+    "responsibility": [
+      "Who is responsible for producing the sample"
+    ],
+    "resultTime": "2022-01-01 00:00:00+00:00"
+  },
+  "curation": {
+    "label": "A special label for curation.",
+    "description": "A description of how the sample is curated.",
+    "accessConstraints": "Any constraints associated with curation.",
+    "curationLocation": "Where the sample is curated.",
+    "responsibility": "The institution responsible for curation."
+  },
+  "sampleidentifier": "DOI:12345",
+  "@id": "DOI:12345"
+}
