@@ -53,7 +53,7 @@
          source ./.venv/bin/activate
          export PYTHONPATH=.
          python scripts/isb_things.py validate -f ../simple_isamples.csv
-         python scripts/isb_things.py sitemap -f ../simple_isamples.csv -d ../sitemaps
+         python scripts/isb_things.py sitemap -f ../simple_isamples.csv -d ../sitemaps -u "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/raw/gh-pages/"
      - name: Deploy 🚀 
        uses: JamesIves/github-pages-deploy-action@v4.3.3
        with:
