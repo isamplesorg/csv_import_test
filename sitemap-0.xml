@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://github.com/isamplesorg/csv_import_test/raw/gh-pages/DOI:1234567.json</loc>
-    <lastmod>2022-08-25 00:11:42.108203</lastmod>
+    <lastmod>2022-08-26 16:02:12.503218</lastmod>
   </url>
   <url>
     <loc>https://github.com/isamplesorg/csv_import_test/raw/gh-pages/DOI:12345.json</loc>
-    <lastmod>2022-08-25 00:11:42.108216</lastmod>
+    <lastmod>2022-08-26 16:02:12.503230</lastmod>
   </url>
   <url>
     <loc>https://github.com/isamplesorg/csv_import_test/raw/gh-pages/DOI:123456.json</loc>
-    <lastmod>2022-08-25 00:11:42.108222</lastmod>
+    <lastmod>2022-08-26 16:02:12.503234</lastmod>
   </url>
 </urlset>
