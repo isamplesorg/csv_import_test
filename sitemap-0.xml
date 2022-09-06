@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://github.com/isamplesorg/csv_import_test/raw/gh-pages/DOI:12345.json</loc>
-    <lastmod>2022-09-06 18:38:29.427173</lastmod>
+    <lastmod>2022-09-06 19:04:19.655909</lastmod>
   </url>
   <url>
     <loc>https://github.com/isamplesorg/csv_import_test/raw/gh-pages/DOI:123456.json</loc>
-    <lastmod>2022-09-06 18:38:29.427185</lastmod>
+    <lastmod>2022-09-06 19:04:19.655924</lastmod>
   </url>
 </urlset>
