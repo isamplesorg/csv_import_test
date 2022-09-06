@@ -22,7 +22,7 @@
        with:
          repository: isamplesorg/isamples_inabox
          path: isamples_inabox
-         ref: fail_if_error
+         ref: develop
      - name: Set up Python ${{ matrix.python-version }}
        uses: actions/setup-python@v2
        with:

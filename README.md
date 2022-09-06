@@ -29,3 +29,15 @@ The template repository has a GitHub workflow that:
 3. Runs the validate command on `isb_things.py`
 4. If the file format passes validation, runs the sitemap command on `isb_things.py`, and publishes output to a new `sitemaps` directory.
 5. Takes that `sitemaps` directory and publishes that to the `gh-pages` branch on the target repository.
+
+## Validation Errors
+
+If a file is pushed that doesn't pass validation, the errors will be available on github for inspection.  The workflow is aborted and the sitemap isn't generated.  The errors will have a code and specify a line number, for example:
+
+```
+code             message
+16
+---------------  ---------------------------------------------------------------------------------------------------------------------
+17
+missing-label    There is a missing label in the header's field "label" at position "2"
+```
