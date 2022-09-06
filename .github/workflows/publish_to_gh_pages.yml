@@ -38,8 +38,8 @@
        run: |
           poetry run python -m pip install pybind11
      - name: Hacked install of fasttext
-        run: |
-          poetry run python -m pip install fasttext
+       run: |
+         poetry run python -m pip install fasttext
      - name: Install dependencies
        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
        run: |
